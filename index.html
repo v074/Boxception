@@ -1,0 +1,71 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Boxception</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <h1>Boxception</h1>
+    <!-- Box of divs -->
+    <div class="one">
+        <div class="two">
+            <div class="three">
+
+            </div>
+        </div>
+    </div>
+
+    <br>
+    <!-- Box of tables -->
+    <table>
+        <thead>
+            <tr>
+                <th class="top left"></th>
+                <th class="top"></th>
+                <th class="top"></th>
+                <th class="top"></th>
+                <th class="top right"></th>
+            </tr>
+        </thead>
+        <tbody>
+            <tr>
+                <td class="left"></td>
+                <td class="top left inner"></td>
+                <td class="top inner"></td>
+                <td class="top right inner"></td>
+                <td class="right"></td>
+            </tr>
+            <tr><td class="left"></td>
+                <td class="left inner"></td>
+                <td id="center"></td>
+                <td class="right inner"></td>
+                <td class="right"></td>
+            </tr>
+            <tr>
+                <td class="left"></td>
+                <td class="bottom left inner"></td>
+                <td class="bottom inner"></td>
+                <td class="bottom right inner"></td>
+                <td class="right"></td>
+            </tr>
+            <tr>
+                <td class="bottom left"></td>
+                <td class="bottom"></td>
+                <td class="bottom"></td>
+                <td class="bottom"></td>
+                <td class="bottom right"></td>
+            </tr>
+        </tbody>
+    </table>
+    <!-- Unlisted extra work: proof that this boxception works on constructs like articles as well! -->
+    <br>
+    <article class="one">
+        <article class="two">
+            <article class="three">
+            </article>
+        </article>
+    </article>
+</body>
+</html>

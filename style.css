@@ -1,0 +1,60 @@
+h1{
+    text-align:center;
+}
+
+/* Box of divs.  Also a box of articles! Turns out they work off of the same logic here.*/
+
+div, article{
+    width:fit-content;
+    padding:100px;
+    border: 3px solid black;
+    margin: auto;
+}
+
+.one{
+    background-color:red;
+}
+
+.two{
+    background-color: blue;;
+}
+.three{
+    padding: 50px;
+    background-color:white;
+}
+
+/* box of tables */
+
+table{
+    margin:auto;
+}
+th, td{
+    padding:50px;
+    margin:0;
+    background:red;
+}
+
+.top{
+    border-top:3px solid black;
+}
+
+.left{
+    border-left:3px solid black;
+}
+
+.right{
+    border-right:3px solid black;
+}
+
+.bottom{
+    border-bottom:3px solid black;
+}
+
+.inner{
+    background:blue;
+}
+
+#center{
+    border:3px solid black;
+    background:white;
+}
